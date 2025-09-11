@@ -12,10 +12,10 @@
 
 <br/>
 
-<h1>Latest posts</h1>
+<h1>Latest news</h1>
 
 <div class="posts-list">
-{{ with .Site.GetPage "/posts" }}
+{{ with .Site.GetPage "/news" }}
     {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
         <div class="post">
             <p>
