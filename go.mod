@@ -1,3 +1,3 @@
-module github.com/mrmierzejewski/hugo-theme-console
+module github.com/ovcarj/hugo-theme-console
 
 go 1.12
